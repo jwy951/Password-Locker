@@ -193,23 +193,23 @@ def passlocker():
                 print(
                     f"Your stored credentials for : {search_credential.account} successfully deleted!!!")
                 print('\n')
-#             else:
-#                 print(
-#                     "That Credential you want to delete does not exist in your store yet")
+            else:
+                print(
+                    "That Credential you want to delete does not exist in your store yet")
 
-#         elif short_code == 'gp':
+        elif short_code == 'gp':
 
-#             password = generate_Password()
-#             print(
-#             	f" {password} Has been generated succesfull. You can proceed to use it to your account")
-#         elif short_code == 'ex':
-#             print("Thanks for using passwords store manager.. See you next time!")
-#             break
-#         else:
-#             print(
-#             	"Wrong entry... Check your entry again and let it match those in the menu")
-#     else:
-#         print("Please enter a valid input to continue")
+            password = generate_Password()
+            print(
+            	f" {password} Has been generated succesfull. You can proceed to use it to your account")
+        elif short_code == 'ex':
+            print("Thanks for using passwords store manager.. See you next time!")
+            break
+        else:
+            print(
+            	"Wrong entry... Check your entry again and let it match those in the menu")
+    else:
+        print("Please enter a valid input to continue")
 
 
 if __name__ == '__main__':
