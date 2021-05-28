@@ -71,12 +71,12 @@ def find_credential(account):
     return Credentials.find_credential(account)
 
 
-# def check_credendtials(account):
-#     """
-#     Function that check if a Credentials exists with that account name and return true or false
+def check_credendtials(account):
+    """
+    Function that check if a Credentials exists with that account name and return true or false
 
-#     """
-#     return Credentials.if_credential_exist(account)
+    """
+    return Credentials.if_credential_exist(account)
 
 
 # def generate_Password():
