@@ -56,12 +56,12 @@ def display_accounts_details():
     return Credentials.display_credentials()
 
 
-# def delete_credential(credentials):
-#     """
-#     Function to delete a Credentials from credentials list
+def delete_credential(credentials):
+    """
+    Function to delete a Credentials from credentials list
 
-#     """
-#     credentials.delete_credentials()
+    """
+    credentials.delete_credentials()
 
 
 # def find_credential(account):
