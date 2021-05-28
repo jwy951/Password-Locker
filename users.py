@@ -160,28 +160,28 @@ def passlocker():
             if display_accounts_details():
                 print("Here's your list of acoounts: ")
 
-#                 print('*' * 30)
-#                 print('_' * 30)
-#                 for account in display_accounts_details():
-#                     print(
-#                     	f" Account:{account.account} \n User Name:{username}\n Password:{password}")
-#                     print('_' * 30)
-#                 print('*' * 30)
-#             else:
-#                 print("You don't have any credentials saved yet..........")
-#         elif short_code == "fc":
-#             print("Enter the Account Name you want to search for")
-#             search_name = input().lower()
-#             if find_credential(search_name):
-#                 search_credential = find_credential(search_name)
-#                 print(f"Account Name : {search_credential.account}")
-#                 print('-' * 50)
-#                 print(
-#                     f"User Name: {search_credential.userName} Password :{search_credential.password}")
-#                 print('-' * 50)
-#             else:
-#                 print("That Credential does not exist")
-#                 print('\n')
+                print('*' * 30)
+                print('_' * 30)
+                for account in display_accounts_details():
+                    print(
+                    	f" Account:{account.account} \n User Name:{username}\n Password:{password}")
+                    print('_' * 30)
+                print('*' * 30)
+            else:
+                print("You don't have any credentials saved yet..........")
+        elif short_code == "fc":
+            print("Enter the Account Name you want to search for")
+            search_name = input().lower()
+            if find_credential(search_name):
+                search_credential = find_credential(search_name)
+                print(f"Account Name : {search_credential.account}")
+                print('-' * 50)
+                print(
+                    f"User Name: {search_credential.userName} Password :{search_credential.password}")
+                print('-' * 50)
+            else:
+                print("That Credential does not exist")
+                print('\n')
 #         elif short_code == "d":
 #             print("Enter the account name of the Credentials you want to delete")
 #             search_name = input().lower()
