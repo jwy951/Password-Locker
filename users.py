@@ -79,12 +79,12 @@ def check_credendtials(account):
     return Credentials.if_credential_exist(account)
 
 
-# def generate_Password():
-#     '''
-#     generates a random password for the user.
-#     '''
-#     auto_password = Credentials.generatePassword()
-#     return auto_password
+def generate_Password():
+    '''
+    generates a random password for the user.
+    '''
+    auto_password = Credentials.generatePassword()
+    return auto_password
 
 
 # def copy_password(account):
