@@ -42,11 +42,11 @@ def create_new_credential(account, userName, password):
     return new_credential
 
 
-# def save_credentials(credentials):
-#     """
-#     Function to save Credentials to the credentials list
-#     """
-#     credentials. save_details()
+def save_credentials(credentials):
+    """
+    Function to save Credentials to the credentials list
+    """
+    credentials. save_details()
 
 
 # def display_accounts_details():
