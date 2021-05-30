@@ -96,7 +96,7 @@ def copy_password(account):
 
 
 def passlocker():
-    print("Hello Welcome to your Accounts Password Store...\n Please enter one of the following to proceed.\n CA ---  Create New Account  \n HA ---  Have An Account  \n")
+    print("Hello Welcome to your Accounts Password Store...\nChoose one of the following abbreviation to proceed.\n CA ---  Create New Account  \n HA ---  Have An Account  \n")
     short_code = input("").lower().strip()
     if short_code == "ca":
         print("Sign Up")
@@ -129,7 +129,7 @@ def passlocker():
             print(f"Hello {username}.Welcome To PassWord Locker Manager")
             print('\n')
     while True:
-        print("Use these short codes:\n CC - Create a new credential \n DC - Display Credentials \n FC - Find a credential \n GP - Generate A randomn password \n D - Delete credential \n EX - Exit the application \n")
+        print("Use these short codes:\n CC - Create a new credential \n DC - Display Credentials \n FC - Find a credential \n GP - Generate A randomn password \n DE - Delete credential \n EX - Exit the application \n")
         short_code = input().lower().strip()
         if short_code == "cc":
             print("Create New Credential")
@@ -182,7 +182,7 @@ def passlocker():
             else:
                 print("That Credential does not exist")
                 print('\n')
-        elif short_code == "d":
+        elif short_code == "de":
             print("Enter the account name of the Credentials you want to delete")
             search_name = input().lower()
             if find_credential(search_name):
